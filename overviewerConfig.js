@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "city1 - overworld"
+        "City 1 - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1613082416",
+        "cacheTag": "1614023848",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +41,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "City Ruins",
-            "zoomLevels": 6,
+            "name": "North",
+            "zoomLevels": 7,
             "defaultZoom": 1,
-            "maxZoom": 6,
-            "path": "city1",
+            "maxZoom": 7,
+            "path": "North",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "city1 - overworld",
+            "world": "City 1 - overworld",
             "last_rendertime": 1613077870,
             "imgextension": "png",
             "isOverlay": false,
@@ -62,6 +62,29 @@ var overviewerConfig = {
             "minZoom": 0,
             "spawn": false,
             "north_direction": 0
+        },
+        {
+            "name": "South",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "South",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "City 1 - overworld",
+            "last_rendertime": 1613077870,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -290,
+                4,
+                58
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
